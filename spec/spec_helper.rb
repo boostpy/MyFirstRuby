@@ -90,5 +90,5 @@ RSpec.configure do |config|
 =end
 end
 
-#require 'pry'
+require 'pry'
 require 'hqi'
