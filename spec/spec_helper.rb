@@ -94,5 +94,6 @@ end
 require "coveralls"
 Coveralls.wear!
 
-require 'pry'
+#require 'pry'
 require 'hqi'
+#all files under hqi go to hqi.rb for example (require "hqi/data_store")
