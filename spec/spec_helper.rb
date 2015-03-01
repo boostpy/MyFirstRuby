@@ -90,5 +90,9 @@ RSpec.configure do |config|
 =end
 end
 
+#the following must load before the own gem
+require "coveralls"
+Coveralls.wear!
+
 require 'pry'
 require 'hqi'
