@@ -35,5 +35,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-remote"
   # conflict pry version with pry-nav durching call rake rspec
   #spec.add_development_dependency "pry-nav"
+  spec.add_development_dependency "crimp"
   spec.add_development_dependency "coveralls"
 end
