@@ -96,4 +96,5 @@ Coveralls.wear!
 
 #require 'pry'
 require 'hqi'
-#all files under hqi go to hqi.rb for example (require "hqi/data_store")
+#all files will go under hqi and will not need any more, i.e. require "hqi/data_store"
+#require "hqi/data_store"
