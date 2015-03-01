@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-remote"
-  spec.add_development_dependency "pry-nav"
+  # conflict pry version with pry-nav durching call rake rspec
+  #spec.add_development_dependency "pry-nav"
   spec.add_development_dependency "coveralls"
 end
